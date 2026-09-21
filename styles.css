@@ -1,0 +1,10 @@
+body { margin:0; padding:0; font-family:'Work Sans', Calibri, Helvetica, Arial, sans-serif; }
+  * { box-sizing:border-box; }
+  input:focus { outline:none; }
+  .tab-btn { border:none; cursor:pointer; font-family:inherit; border-radius:9px; padding:10px 14px; font-size:14px; font-weight:500; background:transparent; color:oklch(35% 0.01 150); transition:all .15s; flex:1 1 140px; min-width:120px; }
+  .tab-btn.active { background:#39A900; color:white; font-weight:700; }
+  .chip-btn { padding:7px 13px; border-radius:20px; font-size:12.5px; font-weight:600; border:1.5px solid oklch(88% 0.01 150); background:white; color:oklch(35% 0.01 150); cursor:pointer; font-family:inherit; }
+  .chip-btn.active { border:1.5px solid #39A900; background:#39A900; color:white; }
+  .course-card { background:white; border:1.5px solid oklch(91% 0.01 150); border-radius:14px; padding:18px; cursor:pointer; display:flex; flex-direction:column; gap:10px; transition:border-color .15s, transform .1s; }
+  .course-card:hover { border-color:#39A900; transform:translateY(-2px); }
+  #search-input:focus { border:1.5px solid #39A900; }
